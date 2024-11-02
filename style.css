@@ -15,8 +15,16 @@ body{
      width: 80%;
      margin: auto;
      overflow: hidden;
- 
  }
+ h1{
+  font-size: xx-large;
+ }
+ h2{
+  font-size: xx-large;
+ }
+ h3{
+  font-size: x-large;
+
  ul{
      margin: 0;
      padding: 0;
@@ -106,7 +114,7 @@ body{
 .features {
   text-align: center;
   padding: 50px 0;
-  background-color: #f8f9fa;
+  background-color: #fff;
 }
 
 .features h2 {
@@ -215,7 +223,13 @@ body{
 #about-material p {
     margin: 10px 0;
 }
-
+/* About link page css*/
+.about-link-container{
+  padding: 0% 5%;
+}
+.about-link-container p{
+  font-size: large;
+}
 /* Contact us */
 #contact {
   padding: 0 8vw 8vw 8vw;
@@ -263,7 +277,14 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
 }
-
+#contact .contact-box .form select {
+  padding: 15px 15px 15px 15px;
+  width: 300px;
+  border: 2px solid #545454;
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 #contact .contact-box .form span {
   text-align: start;
   padding: 15px 0;
@@ -290,6 +311,137 @@ body{
   background:#4789c0;
 }
 
+/*courses css*/
+
+.courses {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.course {
+  margin: 30px 15px;
+  background-color: #f4f9f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(15, 15, 15, 0.926);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.course:hover {
+  transform: scale(1.05);
+}
+
+.course a {
+  text-decoration: none;
+  color: #111607;
+}
+
+.course img {
+  width: 100%;
+  height: 170px;
+  border-radius: 4px;
+}
+
+.course h2 {
+  font-size: 1.3em;
+}
+
+
+.roll-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #111607;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* instructer main home css*/
+.instructor-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+#instructor-material {
+  color: #fff;
+  flex: 1; /* Allow text to take available space */
+  padding-right: 20%; /* Add some spacing between text and image */
+}
+
+#instructor-image {
+  flex: 1; /* Allow image to take available space */
+  text-align: left; /* Align image to the right */
+}
+
+#instructor-image img {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* instructer link page  css*/
+
+
+/* instructer-features link page  css*/
+#instructor-features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#instructor-features p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+#instructor-features .instructor-feature-base {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2.5rem;
+  margin-top: 50px;
+}
+
+#instructor-features .instructor-feature-base:hover > :not(:hover){
+  opacity: 0.4;
+}
+
+#instructor-features .instructor-feature-box {
+  background: #f9f9ff;
+  text-align: start;
+  padding: 50px;
+  transition:  0.3s ease;
+}
+
+#instructor-features .instructor-feature-box:hover  {
+  transform: scaleX(1.1);
+  background-color: #b6effa;
+}
+
+#instructor-features .instructor-feature-box i {
+  font-size: 2.3rem;
+  color: #424067;
+}
+
+#instructor-features .instructor-feature-box h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #424067;
+  padding: 13px 0 7px 0;
+}
+
+#instructor-features .instructor-feature-box p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #545454;
+}
 /* stories css*/
 #Success-stories {
   padding: 5vw 8vw 0 8vw;
@@ -508,13 +660,7 @@ label {
     display: block;
     margin-bottom: 5px;
 }
-
-
-
-
 /*team test css*/
-
-
 .menu{
     height: 240px;
     width: 100%;
