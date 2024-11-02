@@ -4,40 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sign Up - Code Ka Safaar</title>
+    <title>signup - Code Ka Safaar</title>
 </head>
 <body>
-    <header>
-        <h1><span class="highlight"><a href="./index.html" style="font-size:xx-large; color:rgb(32, 176, 92);">Code Ka Safaar</a></span> E-Learning</h1>
-            
+ <header>
+        <h1 style="text-align: center;"><span class="highlight"><a href="./index.html" style="font-size:xx-large; color:rgb(32, 176, 92);">Code Ka Safaar</a></span> E-Learning</h1>
     </header>
-
-    <div class="signup-container">
-        <h2>Sign Up</h2>
-        <form action="welcome.html" method="POST">
-            <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="Sara Naeem" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="saranaeem41@gmail.com" required style="border: 1px solid;">
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="1a2b3c" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" placeholder="1a2b3c" required>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-        <p>Already have an account? <a href="login.html">Login here</a></p>
-    </div>
+    
+     <!-- signup -->
+     <section id="contact" >
+        <h1>Create Your Account</h1>
+        <div class="contact-box" style="justify-content: space-around">
+        <FORm>
+        <div class="form">
+            <h3 style="text-align: center;">Apply as Instructor</h3>
+            <p style="font-size: medium; margin-top: 0%;">Already have an account <a href="./login.html" style="text-decoration: none;">login!</a></p>
+            <span>Name*</span>
+            <input type="text" placeholder="Enter your full name" required/>
+            <span>Email*</span>
+            <input type="text" placeholder="Enter your Email" required />
+            <span>Phone Number*</span>
+            <input type="tel" placeholder="Enter your phone number" required />
+            <span>Subjects You Will Teach*</span>
+            <select required>
+                <option value="" disabled selected>Select subjects</option>
+                <option value="math">Mathematics</option>
+                <option value="science">Science</option>
+                <option value="english">English Language</option>
+                <option value="history">History</option>
+                <option value="programming">Programming</option>
+                <option value="art">Art</option>
+                <option value="other">Other</option>
+            </select>
+            <span>Address</span>
+            <input type="text" placeholder="Enter your Address" />
+            <span>Password*</span>
+            <input type="password" placeholder="Enter your password" required/>
+            <div class="send-btn">
+                <a href="">signup</a>
+              </div>
+        </div>
+       </FORm>
+       <FORm>
+        <div class="form">
+            <h3 style="text-align: center;">Apply as learner</h3>
+            <p style="font-size: medium; margin-top: 0%;">Already have an account <a href="./login.html" style="text-decoration: none;">login!</a></p>
+            <span>Name*</span>
+            <input type="text" placeholder="Enter your full name" required/>
+            <span>Email*</span>
+            <input type="text" placeholder="Enter your Email" required />
+            <span>Phone Number*</span>
+            <input type="tel" placeholder="Enter your phone number" required />
+            <span>Last Qualification / Highest Degree*</span>
+            <select required>
+                <option value="" disabled selected>Select your qualification</option>
+                <option value="highschool">High School Diploma</option>
+                <option value="associate">Associate Degree</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="doctorate">Doctorate (PhD)</option>
+                <option value="other">Other</option>
+            </select>
+            <span>Address</span>
+            <input type="text" placeholder="Enter your Address" />
+            <span>Password*</span>
+            <input type="password" placeholder="Enter your password" required/>
+                  <div class="send-btn">
+                <a href="">signup</a>
+              </div>
+        </div>
+       </FORm>
+      </section>
+    <!--signup-->
 
     <footer>
-        <p>©Code Ka Safaar, All Rights Reserved.</p>
+        <p style="text-align: center;">©Code Ka Safaar, All Rights Reserved.</p>
     </footer>
 </body>
 </html>
