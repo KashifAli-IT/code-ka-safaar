@@ -20,14 +20,6 @@ body{
  }
  h3{
   font-size: x-large;
-<<<<<<< Updated upstream
-
-=======
- }
- p{
-  font-size: large;
- }
->>>>>>> Stashed changes
  ul{
      margin: 0;
      padding: 0;
@@ -236,10 +228,6 @@ body{
 .about-link-container p{
   font-size: large;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Contact us */
 #contact {
   padding: 0 8vw 8vw 8vw;
@@ -287,11 +275,8 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
 }
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
 #contact .contact-box .form select {
   padding: 15px 15px 15px 15px;
   width: 300px;
@@ -300,10 +285,7 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 #contact .contact-box .form span {
   text-align: start;
   padding: 15px 0;
@@ -461,11 +443,6 @@ body{
   font-weight: 600;
   color: #545454;
 }
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 /* stories css*/
 #Success-stories {
   padding: 5vw 8vw 0 8vw;
@@ -760,6 +737,5 @@ p.bar{
 }
 .red a:hover{
     color: #6eb1e8;
-
 }
-
+}
