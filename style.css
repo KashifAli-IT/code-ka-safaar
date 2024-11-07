@@ -1,8 +1,5 @@
 body{
-    /* font-family: Arial, Helvetica, sans-serif;
-     font-size: 15px;
-     line-height: 1.5;
-     */
+   
      font: 15px/1.5 Arial, Helvetica, sans-serif;
      background-color: #fff ;
      padding: 0;
@@ -10,7 +7,6 @@ body{
     box-sizing: border-box;
  }
   
- /*globel*/
  .container{
      width: 80%;
      margin: auto;
@@ -24,7 +20,14 @@ body{
  }
  h3{
   font-size: x-large;
+<<<<<<< Updated upstream
 
+=======
+ }
+ p{
+  font-size: large;
+ }
+>>>>>>> Stashed changes
  ul{
      margin: 0;
      padding: 0;
@@ -36,7 +39,7 @@ body{
  }
  header{
      background:#fff ;
-     color: rgb(27, 150, 140);
+     color: rgb(16, 16, 16);
      padding-top: 30px;
      min-height: 50px;
      border-bottom: 3px solid;
@@ -44,7 +47,7 @@ body{
      z-index: 1000; 
  }
  header a{
-     color: rgb(16, 154, 179);
+     color: rgb(14, 15, 15);
      text-decoration: none;
      font-size: 16px;
      text-transform: uppercase; 
@@ -61,6 +64,7 @@ body{
  }
  header #branding{
      float: left;
+     
  }
  header #branding h1 {
      margin: 0;
@@ -70,11 +74,13 @@ body{
      margin-top:10px; 
   }
   header .highlight, header .current a{
-     color: rgb(32, 176, 92);
+    color: rgb(16, 16, 16);
+
+
      font-weight: bold;
   }
   header a:hover{
-     color:#168972;
+     color:#313d3b;
      font-weight: bold;
   }
 
@@ -82,7 +88,7 @@ body{
 /* Home */
 
 #home {
-  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(46, 44, 54, 0.7)),
     url("./img/home_background-2.jpg");
   width: 100%;
   height: 100vh;
@@ -230,6 +236,10 @@ body{
 .about-link-container p{
   font-size: large;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /* Contact us */
 #contact {
   padding: 0 8vw 8vw 8vw;
@@ -277,6 +287,11 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
 }
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 #contact .contact-box .form select {
   padding: 15px 15px 15px 15px;
   width: 300px;
@@ -285,6 +300,10 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #contact .contact-box .form span {
   text-align: start;
   padding: 15px 0;
@@ -442,6 +461,11 @@ body{
   font-weight: 600;
   color: #545454;
 }
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 /* stories css*/
 #Success-stories {
   padding: 5vw 8vw 0 8vw;
